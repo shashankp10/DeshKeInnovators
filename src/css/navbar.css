@@ -1,0 +1,96 @@
+.navbar-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width:100%;
+}
+.navbar-logo img{
+    margin-top: -10px;
+    margin-left: -15px;
+    height: 120px;
+    width: auto; 
+}
+.navbar h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+}
+.containter{
+    display: flex;
+    text-align: center;
+}
+.first-text{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 200px 10px;
+    margin-left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.second-text{
+    color: #007bff;
+    font-size: 35px;
+    font-weight: 900;
+    padding: 200px 10px;
+}
+.social-media{
+    display: flex;
+    margin-right: 40px;
+}
+.social-media svg{
+    margin-right: 15px;
+    margin-top: 5px;
+    gap: 10px;
+}
+.social-media svg:hover {
+    opacity: 0.6;
+}
+.outline-primary-button {
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #007bff; 
+    height: 35px;
+    width: 110px;
+    color: #007bff;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: -25px;
+    margin-top: -2px;
+}
+  
+.outline-primary-button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+.navbar-line {
+    margin-top: 10px;
+    border-bottom: 1px solid grey;  
+}
+.features-container {
+    margin: 10px 0;
+    width:100%;
+}  
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px 0; 
+    
+} 
+.features a {
+    text-decoration: none;
+    color: rgb(31, 31, 163);
+    font-weight: 700;
+    font-size: 17px;
+}
+.features a:hover {
+    color: rgb(231, 127, 7);
+}
+  
+  

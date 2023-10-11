@@ -1,0 +1,63 @@
+.Heading{
+    color: rgb(45, 45, 184);
+    padding: 60px 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.vision{
+    text-align: left;
+    margin-top: 50px;
+    padding: 10px 0px; 
+}
+.vision h1{
+    color: rgb(33, 33, 100);
+    padding: 15px 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.vision-card {
+    background-color: #d6d0d0; 
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 22px rgba(0, 0, 2, 1);
+    width: 900px;
+    height: 200px;
+    margin-left: 100px;
+}
+
+.vision-card p {
+    color: black;
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.mission{
+    margin-top: 50px;
+    margin-left: 200px;
+    padding: 10px 0px; 
+}
+.mission h1{
+    color: rgb(33, 33, 100);
+    padding: 20px 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 870px;
+}
+.mission-card {
+    background-color: #d6d0d0; 
+    padding: 20px ;
+    border-radius: 10px;
+    box-shadow: 0 4px 22px rgba(0, 0, 2, 1);
+    width: 900px;
+    height: 350px;
+    margin-left: 200px;
+}
+
+.mission-card li {
+    color: black;
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.image img{
+    padding: 40px 600px;
+}
