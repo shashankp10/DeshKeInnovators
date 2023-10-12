@@ -14,7 +14,7 @@ export default function Slider() {
                Looking for help with your idea?
             </h1>
             <p>
-              Register if you are looking a mentor or if you want to guide others... 
+              Register if you are looking for a mentor or if you want to guide others... 
             </p>
             <a href="https://your-contact-us-url.com" target="_blank" rel="noopener noreferrer">
               <button class="register-button">Register</button>
