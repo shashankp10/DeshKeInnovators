@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react'
+import { Link } from 'react-router-dom';
 import '../css/project.css'
 import image from '../assests/flag-divider.png'
 export default class Project extends PureComponent {
@@ -11,7 +12,7 @@ export default class Project extends PureComponent {
           </div>
           <div className="submit">
             <a href="https://your-contact-us-url.com" target="_blank" rel="noopener noreferrer">
-              <button class="submit-button">Submit</button>
+              <Link to="/Project"><button class="submit-button">Submit</button></Link>
             </a>
           </div>
         </div>

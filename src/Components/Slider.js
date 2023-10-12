@@ -1,6 +1,7 @@
 import React from 'react'
 import DynamicSlider from '../Components/dynamicSlider'
 import '../css/slider.css'
+import { Link } from 'react-router-dom'
 
 export default function Slider() {
   return (
@@ -16,11 +17,11 @@ export default function Slider() {
             <p>
               Register if you are looking for a mentor or if you want to guide others... 
             </p>
-            <a href="https://your-contact-us-url.com" target="_blank" rel="noopener noreferrer">
+            <Link to="/Loginpage" rel="noopener noreferrer">
               <button class="register-button">Register</button>
-            </a>
+            </Link>
         </div>
       </div>
-    </>
-  )
+    </>
+  )
 }

@@ -1,6 +1,8 @@
 .main-body2{
     padding: 20px 60px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .main-body2 h1{
     font-size: 62px;

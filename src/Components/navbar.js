@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Logo from '../assests/logo.png'
 import '../css/navbar.css'
+import { Link } from 'react-router-dom';
 const textArray = ["देशस्य नवीनकाराः","देश के इनोवेटर्स", "Desh ke Innovators", "ਦੇਸ਼ ਦੇ ਨਵੀਨਤਾਕਾਰੀ","দেশের উদ্ভাবক"];
 const intervalTime = 3000; 
 export default function Navbar() {
@@ -55,9 +56,9 @@ export default function Navbar() {
         
         <div className="features-container">
             <div className="features">
-                <a href="#">Home</a>
+                <Link to="/">Home</Link>
                 <a href="#">About Us</a>
-                <a href="#">Register</a>
+                <Link to="/Loginpage">Register</Link>
                 <a href="#">Project Library</a>
                 <a href="#">Campaign</a>
                 <a href="#">Discussion</a>

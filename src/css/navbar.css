@@ -25,7 +25,7 @@
     color: black;
     font-size: 30px;
     font-weight: 600;
-    padding: 200px 10px;
+    padding: 0px 10px;
     margin-left: 200px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -33,7 +33,7 @@
     color: #007bff;
     font-size: 35px;
     font-weight: 900;
-    padding: 200px 10px;
+    padding: 0px 10px;
 }
 .social-media{
     display: flex;
@@ -93,5 +93,3 @@
 .features a:hover {
     color: rgb(231, 127, 7);
 }
-  
-  
