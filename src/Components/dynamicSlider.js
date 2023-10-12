@@ -34,7 +34,6 @@ function ControlledCarousel() {
       </Carousel.Item> <Carousel.Item>
         <img className="d-block w-100" src={imageUrl4} style={{ height: '400px', objectFit: 'cover', width:'60%', margin: '10 auto'}}/>
       </Carousel.Item>
-      
     </Carousel>
   );
 }

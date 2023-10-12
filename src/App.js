@@ -4,6 +4,8 @@ import Footer from './Components/footer'
 import Slider from './Components/Slider'
 import MainBody from './Components/MainBody';
 import MainBody2 from './Components/MainBody2';
+import Project from './Components/Project';
+import Faq from './Components/faq'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <MainBody2/>
       <Slider/>
       <MainBody/>
+      <Project/>
+      <Faq/>
       <Footer/>
     </>
   );

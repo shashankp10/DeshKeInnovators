@@ -1,0 +1,12 @@
+.faq{
+    background-color: #f3eded; 
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 22px rgba(0, 0, 2, 1);
+    width: 500px;
+    height: 550px;
+    margin: 40px 400px;
+}
+.faq h1{
+    padding: 20px 180px;
+}

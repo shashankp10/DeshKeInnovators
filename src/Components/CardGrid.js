@@ -10,12 +10,12 @@ import card6 from '../assests/card6.webp'
 
 
 const cardData = [
-  { id: 1, text:'text-1', image: card1},
-  { id: 2, text:'text-2', image: card2},
-  { id: 3, text:'text-3', image: card3},
-  { id: 4, text:'text-4', image: card4},
-  { id: 5, text:'text-5', image: card5},
-  { id: 6, text:'text-6', image: card6},
+  { id: 1, text:'Learn', image: card1},
+  { id: 2, text:'Practice', image: card2},
+  { id: 3, text:'Mentorships', image: card3},
+  { id: 4, text:'Compete', image: card4},
+  { id: 5, text:'Jobs', image: card5},
+  { id: 6, text:'Blogs', image: card6},
 ];
 
 const CardGrid = () => {
@@ -24,7 +24,7 @@ const CardGrid = () => {
     const rowCards = cardData.slice(i, i + 3);
     rows.push(
       <div className="card-row" key={i / 3}>
-        {rowCards.map((card) => (
+        {rowCards.map(card => (
           <Card key={card.id} text={card.text} image={card.image} />
         ))}
       </div>
