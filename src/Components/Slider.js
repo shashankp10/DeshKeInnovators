@@ -9,7 +9,7 @@ export default function Slider() {
         <div className='dynamicSlider'>
         <DynamicSlider/> 
         </div>
-        <div className="card">
+        <div className="cardSlide">
             <h1>
                Looking for help with your idea?
             </h1>

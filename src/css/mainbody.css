@@ -15,7 +15,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .vision-card {
-    background-color: #d6d0d0; 
+    background-color: #f3eded; 
     padding: 30px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 22px rgba(0, 0, 2, 1);
@@ -43,7 +43,7 @@
     margin-left: 870px;
 }
 .mission-card {
-    background-color: #d6d0d0; 
+    background-color: #f3eded; 
     padding: 20px ;
     border-radius: 10px;
     box-shadow: 0 4px 22px rgba(0, 0, 2, 1);

@@ -1,23 +1,24 @@
-.card{
+.cardSlide{
   background-color: rgb(74, 170, 226);
   color: white;
   height: 400px;
   justify-content: center;
   align-items: center;
   border-radius: 0px;
+  
 }
-.card h1{
+.cardSlide h1{
   font-size: 40px;
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 10px 20px;
+  padding: 40px 40px;
 }
-.card p{
-  padding: 10px 20px;
+.cardSlide p{
+  margin-top: -30px;
+  padding: 10px 40px;
   font-size: 20px;
 }
 .register-button{
-
   align-items: center;
   appearance: none;
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
@@ -36,6 +37,7 @@
   overflow: hidden;
   padding-left: 16px;
   padding-right: 16px;
+  margin-left: 120px;
   position: relative;
   text-align: left;
   text-decoration: none;
@@ -59,7 +61,7 @@
 }
 
 .register-button:active {
-  box-shadow: #2e3b9b 0 3px 7px inset;
+  box-shadow: #252e72 0 3px 7px inset;
   transform: translateY(2px);
 }
 

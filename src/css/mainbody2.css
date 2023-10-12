@@ -1,0 +1,26 @@
+.main-body2{
+    padding: 20px 60px;
+    display: flex;
+}
+.main-body2 h1{
+    font-size: 62px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: rgb(56, 56, 139);
+}
+.main-body2 h2{
+    font-size: 56px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(36, 98, 192);
+}
+.main-body2 p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(72, 74, 196);
+    font-weight: 400;
+}
+.line{
+    margin: 20px 0px;
+    border-bottom: 2px solid #FFA500;  
+    width: 150px;
+}
