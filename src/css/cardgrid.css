@@ -1,32 +1,34 @@
 .card-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px ;
-    justify-content: space-between;
-  }
-  
-  .card-row {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-  }
-  .card {
-    align-self: flex-end; 
-    background-color: #f0f0f0;
-    border-radius: 8px;
-    margin: 10px 40px;
-    padding: 0px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 190px;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr); 
+  gap: 30px;
+  margin-right: 70px;
+  padding: 20px;
+}
 
-  }
-  
-  .card h3 {
-    margin-bottom: 8px;
-    color: #333;
-  }
-  
-  .card p {
-    color: #666;
-  }
-  
+.card {
+  background-color: #fff;
+  position: relative;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+}
+.card a{
+  text-decoration: none;
+  color: black;
+  position: relative; 
+  z-index: 1;
+}
+.card h6{
+  font-size: 1.3em;
+}
+.card img{
+  position: absolute; 
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 150px;
+  z-index: 0;
+}
